@@ -1,14 +1,14 @@
 import cv2
 import numpy as np
-import utlis
+import utlis_mark as utlis
 
 ########################################################################
 webCamFeed = False
-pathImage = "66.JPG"
+pathImage = "u.jpg"
 cap = cv2.VideoCapture(1)
 cap.set(10, 160)
-heightImg = 700
-widthImg = 700
+heightImg = 720
+widthImg = 720
 questions = 5
 choices = 5
 ans = [1, 2, 0, 2, 4]
